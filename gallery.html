@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethan | Gallery</title>
+    <link rel="stylesheet" href="./gallery.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#" class="active">Gallery</a></li>
+            <li><a href="./index.html">About</a></li>
+            <li><a href="./gallery.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="gallery">
+        <div class="image-container">
+            <img src="./images/IMG_0827.jpeg" alt="Image 1" onclick="toggleSize(this)" />
+            <div class="caption">Me Playing Soccer during Intrams</div>
+        </div>
+        <div class="image-container">
+            <img src="./images/IMG_0832 2.jpeg" alt="Image 2" onclick="toggleSize(this)">
+            <div class="caption">Me Playing Soccer during Intrams</div>
+        </div>
+        <div class="image-container">
+            <img src="./images/IMG_1780.jpeg" alt="Image 3" onclick="toggleSize(this)">
+            <div class="caption">Me with my mom during a wedding</div>
+        </div>
+        <div class="image-container">
+            <img src="./images/IMG_7070.jpeg" alt="Image 4" onclick="toggleSize(this)">
+            <div class="caption">Me playing archery</div>
+        </div>
+        <div class="image-container">
+            <img src="./images/IMG_3983.jpeg" alt="Image 5" onclick="toggleSize(this)">
+            <div class="caption">A Picture with my friends during USC days</div>
+        </div>
+        <div class="image-container">
+            <img src="./images/IMG_4018.jpeg" alt="Image 6" onclick="toggleSize(this)">
+            <div class="caption">Me Playing Soccer during Intrams with my girl</div>
+        </div>
+        <div class="image-container">
+            <img src="./images/IMG_4461.jpeg" alt="Image 7" onclick="toggleSize(this)">
+            <div class="caption">A picture with my mom during her birthday</div>
+        </div>
+        <div class="image-container">
+            <img src="./images/IMG_4488.jpeg" alt="Image 8" onclick="toggleSize(this)">
+            <div class="caption">A picture with my mother and my grandmother at busay</div>
+        </div>
+        <div class="image-container">
+            <img src="./images/IMG_4513.jpeg" alt="Image 9" onclick="toggleSize(this)">
+            <div class="caption">A picture with my mother at busay</div>
+        </div>
+        <div class="image-container">
+            <img src="./images/IMG_5129.jpeg" alt="Image 10" onclick="toggleSize(this)">
+            <div class="caption">A picture with my SAS Team during our practice for USC Days</div>
+        </div>
+        <div class="image-container">
+            <img src="./images/IMG_4461 2.jpeg" alt="Image 11" onclick="toggleSize(this)">
+            <div class="caption">Another picture of my mom and I during her birthday</div>
+        </div>
+        <div class="image-container">
+            <img src="./images/IMG_2375.JPG" alt="Image 12" onclick="toggleSize(this)">
+            <div class="caption">A picture with my grandmother during my birthday</div>
+        </div>
+    </div>
+
+    <script>
+        function toggleSize(img) {
+            img.classList.toggle('enlarged');
+        }
+    </script>
+</body>
+
+</html>
